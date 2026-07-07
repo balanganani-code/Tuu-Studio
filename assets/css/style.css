@@ -1,4 +1,44 @@
 
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 8%;
+}
+
+.header-hero{
+    flex: 1;
+}
+
+.header-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;   
+    position: relative; 
+}
+
+.header-image img{
+   position:relative;
+   z-index: 1;
+   mix-blend-mode: screen;
+   width: 100%;
+   height: auto;
+}
+
+.header-image::before{
+    content: "";
+    position: absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to right,
+        #0d1117 0%,
+        rgba(13,17,23,0) 100%,
+        rgba(13,17,23,0) 100%
+    );
+    z-index: 2;
+}
 
 .card:hover{
     transform: translateY(-10px);

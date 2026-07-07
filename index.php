@@ -8,17 +8,23 @@
 <main class="welcome">
 
     <section class="start">
+
         <div class="header-hero">
             <h4>Welcome to </h4>
             <h1>TuuStudio</h1>
 
-            <h4 class="brand">BRANDING.</h4>
-            <h4 class="print">PRINTING.</h4>
-            <h4 class="creative">CREATIVE SOLUTIONS</h4>
+            <h4 class="serve">
+                <span class="illustrations">ILLUSTRATIONS.</span>
+                <span class="creative">CREATIVE SOLUTIONS.</span>
+                <span class="branding">BRANDING.</span>
+            </h4>
 
             <p>We help businesses and individuals bring their ideas to life through creative design,quality printing and professional supply solutions.</p>
 
-            <button class="btn btn-primary">Explore our work</button>
+            <button class="btn btn-primary">Shop Now</button>
+        </div>
+        <div class="header-image">
+            <img src="assets/images/woman-hero.png" alt="hero-image">
         </div>
     </section>
 
@@ -31,11 +37,10 @@
 
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <i class="bi bi-palette-fill"></i>
+                            <i class="bi bi-palette"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Creative Designs</h1>
-                            <p>Unique and original designs that make your brand stand out.</p>
+                            <h1>Creativity</h1>
                         </div>
                     </div>
                 </div>
@@ -43,11 +48,10 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <i class="bi bi-printer-fill"></i>
+                            <i class="bi bi-award"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Quality Printing</h1>
-                            <p>High-quality printing services for all your business needs.</p>
+                            <h1>Quality</h1>
                         </div>
                     </div>
                 </div>
@@ -55,11 +59,10 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <i class="bi bi-boxes"></i>
+                            <i class="bi bi-lightbulb"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Wide Range</h1>
-                            <p>From branding to merchandise, we've got you covered.</p>
+                            <h1>Innovation</h1>
                         </div>
                     </div>
                 </div>
@@ -67,11 +70,10 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <i class="bi bi-award-fill"></i>
+                            <i class="bi bi-check2-circle"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Professional</h1>
-                            <p>We deliver with professionalism and attention to detail.</p>
+                            <h1>Reliable</h1>
                         </div>
                     </div>
                 </div>
@@ -97,7 +99,6 @@
                     <p class="card-text">Logo Design, Brand Identity,Marketing Materials, Custom Illustrations</p>
                 </div>
             </div>
-
 
 
             <div class="offer-item">
@@ -127,5 +128,6 @@
         </div>
 
     </section>
+</main>
 
-    <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
