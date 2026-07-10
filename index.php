@@ -2,8 +2,24 @@
 <?php include 'includes/navbar.php'; ?>
 
 <link rel="stylesheet" href="assets/css/style.css">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
 
 <main class="welcome">
 
@@ -28,61 +44,28 @@
         </div>
     </section>
 
-    <section class="service-cards py-5">
-        <div class="container">
 
-            <div class="grow">
+    <section class="value">
+        <div class="value-item">
+            <i class="bi bi-info-circle"></i>
+            <span>Creativity </span>
+        </div>
 
-                <div class="flip-card">
+        <div class="value-item">
+            <i class="bi bi-award"></i>
+            <span>Quality</span>
+        </div>
 
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <i class="bi bi-palette"></i>
-                        </div>
-                        <div class="flip-card-back">
-                            <h1>Creativity</h1>
-                        </div>
-                    </div>
-                </div>
+        <div class="value-item">
+            <i class="bi bi-lightbulb"></i>
+            <span>Innovation</span>
+        </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <i class="bi bi-award"></i>
-                        </div>
-                        <div class="flip-card-back">
-                            <h1>Quality</h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <i class="bi bi-lightbulb"></i>
-                        </div>
-                        <div class="flip-card-back">
-                            <h1>Innovation</h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <i class="bi bi-check2-circle"></i>
-                        </div>
-                        <div class="flip-card-back">
-                            <h1>Reliable</h1>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
+        <div class="value-item">
+            <i class="bi bi-check2-circle"></i>
+            <span>Reliable</span>
+        </div>
     </section>
-
 
 
     <section class="offer py-5">
@@ -95,25 +78,17 @@
 
             <div class="offer-item">
                 <div class="card">
-                    <h5 class="card-title">Branding,design and illustration</h5>
-                    <p class="card-text">Logo Design, Brand Identity,Marketing Materials, Custom Illustrations</p>
+                    <img src="assets/images/Illustration.jpg" alt="branding" class="card-img-top">
+                    <h3>Illustrations</h3>
                 </div>
             </div>
 
 
             <div class="offer-item">
                 <div class="card">
-                    <h5 class="card-title">Printing & Production</h5>
-                    <p class="card-text">Sublimation Printing, Printmaking,Packing Solutions,and Branded Merchandise</p>
-                </div>
-            </div>
+                    <img src="assets/images/merch.jpg" alt="brand" class="card-img-top">
+                    <h3>Branded Merch</h3>
 
-
-
-            <div class="offer-item">
-                <div class="card">
-                    <h5 class="card-title">Supply Solutions</h5>
-                    <p class="card-text">Stationary Supply, Office Furniture Supply, and Professional Corporate Gifts</p>
                 </div>
             </div>
 
@@ -121,7 +96,17 @@
 
             <div class="offer-item">
                 <div class="card">
-                    <h5 class="card-title">Digital Content</h5>
+                    <img src="assets/images/Novelty-Item.png" alt="novelty" class="card-img-top">
+                    <h3>Novelty</h3>
+                </div>
+            </div>
+
+
+
+            <div class="offer-item">
+                <div class="card">
+                    <img src="assets/images/Digital-Content.png" alt="digital-content" class="card-img-top">
+                    <h3>Digital Content</h3>
                     <p class="card-text">Social Media Content Creation, Promotional designs, and Online Marketing Visuals</p>
                 </div>
             </div>
