@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
 
             <img src="./assets/images/second-logo.png" alt="Logo" class="header-logo">
@@ -37,11 +37,6 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.php">
-                        Portfolio
-                    </a>
-                </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="services.php">
@@ -55,9 +50,7 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <input type="text" class="form-control" placeholder="Search...">
-                </li>
+
 
                 <li class="nav-item">
                     <a class="nav-link" href="login.php">

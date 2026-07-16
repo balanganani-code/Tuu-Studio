@@ -14,6 +14,8 @@
     </div>
 </section>
 
+
+
 <section class="product-categories py-4">
 
     <div class="product-buttons">
@@ -42,7 +44,7 @@
         <div class="row g-4">
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/Khutso.jpg" class="img-fluid">
+                    <img src="assets/images/Khutso.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -51,7 +53,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/Moipone.jpg" class="img-fluid">
+                    <img src="assets/images/Moipone.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -61,7 +63,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/Rebaone.jpg" class="img-fluid">
+                    <img src="assets/images/Rebaone.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -71,7 +73,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/Rebecca.jpeg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -93,7 +95,7 @@
         <div class="row g-4">
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -103,7 +105,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php?id=2" class="btn btn-primary">View Details</a>
@@ -113,7 +115,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php?id=2" class="btn btn-primary">View Details</a>
@@ -123,7 +125,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php?id=3" class="btn btn-primary">View Details</a>
@@ -142,7 +144,7 @@
         <div class="row g-4">
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -152,7 +154,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -162,7 +164,7 @@
 
             <div class="illustration-product col-6">
                 <div class="pro-card">
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>
@@ -173,7 +175,7 @@
             <div class="illustration-product col-6">
                 <div class="pro-card">
 
-                    <img src="assets/images/products/illustration.jpg" class="img-fluid">
+                    <img src="assets/images/illustration.jpg" class="img-fluid">
                     <h5>Shangaan</h5>
                     <p>R350.00</p>
                     <a href="product-details.php" class="btn btn-primary">View Details</a>

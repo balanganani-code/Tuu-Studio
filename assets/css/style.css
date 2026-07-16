@@ -155,17 +155,28 @@ padding: 20px;
 /* Header*/
 .nav-head{
  width: 150px;
- height: auto;   
+ height: auto; 
 }
 
+.navbar-expand-lg{
+    background-color: #F4CB1A;
+}
 
 /* footer*/  
 .footer-logo{
     max-width: 120px;
     max-height: auto;
     object-fit: contain;
+
 }
 
+.leg {
+    background-color: #557BBD;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+}
 
 .col{
     flex-basis:25%;
@@ -312,7 +323,7 @@ height: 100%;
 
 .card-img-top{
 width: 100%;
-height: 250px;
+height: 350px;
 object-fit: cover;
 border-radius: 10px;
 }
@@ -480,4 +491,167 @@ padding: 10px 20px;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s ease;
+}
+
+
+/* contact page */
+
+
+.food{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; 
+    padding: 80px 20px;
+    flex-wrap: wrap;
+}
+
+.contact-left{
+    flex: 1;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+
+
+.can{
+   margin-top:30px;
+
+}
+
+.can .form-control{
+  max-width: 400px;
+}
+
+.form-control{
+    width:400px;
+    height:50px;
+    border:2px solid #557BBD;
+    outline:none;
+    padding-left:25px;
+    font-weight:600;
+    color: black ;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    background-color: #f8f9fa;
+
+}
+
+.contact-right textarea{
+    height: 1800px;
+    padding-top: 10px;
+resize:vertical;
+}
+
+.form-control:focus{
+    border: 1px solid #557BBD;
+
+}
+
+.contact-card{
+    background:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    border:2px solid #557BBD;
+}
+
+/* Cart Items*/
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display:flex;
+    gap:15px;
+    align-items: center;
+
+}
+
+.cart-info img{
+    width:120px;
+    height:120px;
+    object-fit: cover;
+    border-radius:10px
+}
+
+th{
+    text-align: left;
+    padding:5px;
+    color: #fff;
+    background:#2563eb;
+    font-weight: normal;
+}
+
+td{
+    padding:10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding:5px;
+
+}
+td a{
+    color:#2563eb;
+    font-size:12px ;
+}
+
+
+.total-price{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.total-price table{
+    border-top:3px solid #ccc;
+    width: 100%;
+    max-width:400px;
+}
+
+td:last-child{
+    text-align:right;
+
+
+}
+
+th:last-child{
+    text-align:right;
+}
+
+.cart-info{
+    display:flex;
+    gap:30px;
+    align-items: flex-start;
+}
+
+.cart-items{
+    flex:3;
+
+}
+
+.order-summary{
+    flex:1;
+    background: white;
+    padding: 30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.08);
+}
+
+.cart-item{
+    display: grid;
+    grid-template-columns: 100px
+    2fr
+    1fr
+    1fr
+    1fr
+    50px;
+    align-items: center;
+    gap: 20px;
+    border-bottom:1px solid #ddd;
 }

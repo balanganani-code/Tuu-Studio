@@ -15,13 +15,12 @@
 
 </head>
 
-<body>
-    <footer class="leg" py-5>
+<body class="foot">
+    <footer class="leg">
         <div class="row">
             <div class="col">
                 <img src="./assets/images/prime-logo.png" alt="Logo" class="footer-logo">
                 <p class="footer-text">TuuStudio is a creative design studio that specializes in branding, printing, and supply solutions. We are dedicated to helping businesses and individuals bring their ideas to life through innovative design and high-quality products.</p>
-                <h4>Follow us on social media</h4>
                 <div class="social-icons">
                     <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
@@ -47,7 +46,6 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="products.php">Shop</a></li>
-                    <li><a href="portfolio.php">Portfolio</a></li>
                     <li><a href="services.php">Services</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="search.php">Search</a></li>
