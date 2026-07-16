@@ -6,34 +6,42 @@
 
 
 
+<section class="login-page">
+    <div class="login-container">
+        <h1>Login</h1>
 
+        <p class="sub-title">Enter your email and password to login:</p>
+        <form action="login.php" method="$_POST">
 
+            <div class="mb-3">
 
-<h1>Login</h1>
-<form class="container mt-5" method="POST">
+                <label for="uname" class="form-label"><i class="fa fa-envelope"></i>Username</label>
+                <input type="email" class="form-control" id="username" placeholder="Enter your username">
+            </div>
+            <div class="mb-3 pass">
+                <label for="password" class="form-label"><i class="fa fa-lock"></i>Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
 
-    <div class="img-log">
-        <img src="assets/images/login/login.jpg" class="img-fluid">
+            <button type="submit" class="btn btn-success ">Login</button>
+
+            <p class="register-link">
+                Don't have an account?<a href="register.php">Create Account</a>
+            </p>
+        </form>
     </div>
+</section>
 
 
-    <div class="mb-3">
-
-        <label for="uname" class="form-label">Username</label>
-        <input type="email" class="form-control" id="username" placeholder="Enter your username">
-    </div>
-    <div class="mb-3">
-        <label for="password" class="form-label">Password</label>
-        <input type="password" class="form-control" id="password" placeholder="Enter your password">
-    </div>
-
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
-
-
-
-
-
+<script>
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function(toastEl) {
+        return new bootstrap.Toast(toastEl, {
+            delay: 3000
+        });
+    });
+    toastList.forEach(toast => toast.show());
+</script>
 
 
 
