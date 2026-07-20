@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="assets/css/style.css">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,7 +26,7 @@
     <section class="start">
 
         <div class="header-hero">
-            <h4>Welcome to </h4>
+            <h2>Welcome to </h2>
             <h1>TuuStudio</h1>
 
             <h4 class="serve">
@@ -86,7 +86,7 @@
 
             <div class="offer-item">
                 <div class="card">
-                    <img src="assets/images/merch.jpg" alt="brand" class="card-img-top">
+                    <img src="assets/images/merch-shirt.png" alt="brand" class="card-img-top">
                     <h3>Branded Merch</h3>
 
                 </div>
@@ -107,7 +107,6 @@
                 <div class="card">
                     <img src="assets/images/Digital-Content.png" alt="digital-content" class="card-img-top">
                     <h3>Digital Content</h3>
-                    <p class="card-text">Social Media Content Creation, Promotional designs, and Online Marketing Visuals</p>
                 </div>
             </div>
         </div>
