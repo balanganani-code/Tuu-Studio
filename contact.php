@@ -9,33 +9,61 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 
+<main class="contact-body">
+    <div class="contact-us">
+        <form action="contact.php" class="contact-left" method="POST" onsubmit="sendEmail(); return false;">
+            <div class="contact-left-title">
+                <h2> Say Hellow</h2>
+                <hr>
 
-<section class="food">
-    <div class="contact-card">
-        <div class="contact-left">
-            <h2>Say hello</h2>
-            <p>If you prefer to send us a message directly, please fill out the contact form below and we will get back to you as soon as possible.</p>
+            </div>
 
-            <form class="can" action="submit_contact.php" method="post">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
-                </div>
+            <input type="text" name="name" placeholder="Your name" class="contact-inputs" id="name" required>
+            <input type="text" name="subject" placeholder="Subject" class="contact-inputs">
 
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
+            <input type="email" name="email" placeholder="Your email" class="contact-inputs" id="email" required>
+            <textarea name="message" placeholder="Talk to us" class="contact-inputs" id="message"></textarea>
+            <button type="submit"> Submit<img src="assets/images/arrow_icon.png" alt=""></button>
 
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                </div>
 
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+        </form>
+        <div class="contact-right">
+            <img src="assets/images/Khutso.jpg" alt="">
+
         </div>
     </div>
-</section>
+
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = trim($_POST["name"]);
+        $email = trim($_POST["email"]);
+        $subject = trim($_POST["subject"]);
+        $message = trim($_POST["message"]);
+
+        $to = "tendanisadiki2005@gmail.com";
+        $emailsubject = "Contact Form Submission";
+
+
+
+        $txt = "Name:$name";
+        $txt .= "\r\n email:$email";
+        $txt .= "\r\nsubject:$subject";
+        $txt .= "\r\n\r\nMessage:";
+        $txt .= "Name:$name";
+
+
+        $headers = "From: noreply@demosite.com" . "\r\n" .
+            $headers = "Reply-To:$email\r\n";
+
+        if (mail($to, $emailsubject, $txt, $headers)) {
+            echo "Message sent succcessfully!";
+        } else {
+            echo "Message failed to send.";
+        }
+    }
+    ?>
+
+</main>
 
 <?php include 'includes/footer.php'; ?>

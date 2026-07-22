@@ -44,11 +44,8 @@
                 <h3>Quick Links</h3>
                 <ul class="quick-links">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
                     <li><a href="products.php">Shop</a></li>
-                    <li><a href="services.php">Services</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="search.php">Search</a></li>
                     <li><a href="login.php">Login</a></li>
                 </ul>
 

@@ -1,5 +1,5 @@
 .welcome {
-    background-color: #FAF4DC;
+    background-color: #F1602C;
     margin: auto;
 }
 
@@ -12,6 +12,7 @@
     padding: 0 60px;
     max-width: 100%;
     height: auto;
+    background-color: #2563eb;
 }
 
 .welcome-sign {
@@ -42,6 +43,9 @@
 
 }
 
+fa-notdog fa-solid fa-palette {
+    color: #0d1117;
+}
 
 
 .serve {
@@ -51,11 +55,11 @@
 }
 
 .illustrations {
-    color: #557BBD;
+    color: #FAF4DC;
 }
 
 .creative {
-    color: #2563eb;
+    color: #FAF4DC;
 }
 
 .branding {
@@ -88,14 +92,16 @@
     background: none;
 }
 
-.header-hero .btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    background-color: #0d1117;
+
+
+.btn-shop {
+    background-color: #F1602C;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 
 
@@ -105,7 +111,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 40px;
-    margin-top: 40px;
 
 }
 
@@ -228,6 +233,49 @@
 
 
 
+/* Shop products test display*/
+.shopping {
+    padding: 100px 9% 30px;
+}
+
+
+
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+
+.product-box .img-box {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.img-box img {
+    width: 100%;
+    transition: 0.5s;
+    max-width: 250px;
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+}
+
+.product-box .production {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.price-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
 
 
 
@@ -529,66 +577,109 @@
 
 /* contact page */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-.food {
-    text-align: center;
+
+.contact-body {
+    background: linear-gradient(#ffdad5, #fff7f9);
+}
+
+.contact-us {
+    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 80px;
-    padding: 80px 20px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .contact-left {
-    flex: 1;
-    max-width: 500px;
-    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
+    color: #F1602C;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 
 
-.can {
-    margin-top: 30px;
-
+.contact-left-title hr {
+    width: 120px;
+    height: 5px;
+    border: none;
+    background: #F4CB1A;
+    border-radius: 10px;
 }
 
-.can .form-control {
-    max-width: 400px;
-}
-
-.form-control {
+.contact-inputs {
     width: 400px;
     height: 50px;
-    border: 2px solid #557BBD;
+    border: none;
     outline: none;
     padding-left: 25px;
-    font-weight: 600;
-    color: black;
+    font-weight: 500px;
+    color: #F59AA4;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
     border-radius: 20px;
-    transition: all 0.3s ease-in-out;
-    background-color: #f8f9fa;
 
 }
 
-.contact-right textarea {
-    height: 1800px;
-    padding-top: 10px;
-    resize: vertical;
-}
-
-.form-control:focus {
-    border: 1px solid #557BBD;
+.contact-inputs:focus {
+    border: 2px solid #0d1117;
 
 }
 
-.contact-card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    border: 2px solid #557BBD;
+.contact-inputs::placeholder {
+    color: #2563eb;
 }
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #555;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #555, #F1602C);
+    cursor: pointer;
+}
+
+.contact-left button img {
+    height: 15px;
+}
+
+.contact-right img {
+    width: 500px;
+}
+
+@media(max-width:800px) {
+    .contact-inputs {
+        width: 80vw;
+    }
+
+    .contact-right {
+        display: none;
+    }
+}
+
+
+
 
 /* Cart Items*/
 .cart-page {

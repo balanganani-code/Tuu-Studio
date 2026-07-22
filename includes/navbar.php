@@ -25,11 +25,7 @@
 
 
 
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php">
-                        About
-                    </a>
-                </li>
+
 
                 <li class="nav-item">
                     <a class="nav-link" href="products.php">
@@ -38,11 +34,7 @@
                 </li>
 
 
-                <li class="nav-item">
-                    <a class="nav-link" href="services.php">
-                        Services
-                    </a>
-                </li>
+
 
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">

@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
 
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +12,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 
 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+</head>
 
 
 
@@ -37,7 +47,9 @@
 
             <p>We help businesses and individuals bring their ideas to life through creative design,quality printing and professional supply solutions.</p>
 
-            <button class="btn btn-primary">Shop Now</button>
+            <button class="btn-shop">
+                <a href="http://localhost/Tuu%20Studio/products.php">Shop Now</a>
+            </button>
         </div>
         <div class="header-image">
             <img src="assets/images/woman-hero.png" alt="hero-image">
@@ -47,23 +59,23 @@
 
     <section class="value">
         <div class="value-item">
-            <i class="bi bi-info-circle"></i>
+            <i class="fa-notdog fa-solid fa-palette"></i>
             <span>Creativity </span>
         </div>
 
+
         <div class="value-item">
-            <i class="bi bi-award"></i>
+            <i class="fa-duotone fa-solid fa-award"></i>
             <span>Quality</span>
         </div>
 
         <div class="value-item">
-            <i class="bi bi-lightbulb"></i>
+            <i class="fa-solid fa-lightbulb"></i>
             <span>Innovation</span>
         </div>
 
         <div class="value-item">
-            <i class="bi bi-check2-circle"></i>
-            <span>Reliable</span>
+            <i class="fa-sharp-duotone fa-solid fa-badge-check"></i> <span>Reliablility</span>
         </div>
     </section>
 
@@ -115,3 +127,8 @@
 </main>
 
 <?php include 'includes/footer.php'; ?>
+
+</>
+</body>
+
+</html>
