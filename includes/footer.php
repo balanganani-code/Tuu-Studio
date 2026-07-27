@@ -20,7 +20,6 @@
         <div class="row">
             <div class="col">
                 <img src="./assets/images/prime-logo.png" alt="Logo" class="footer-logo">
-                <p class="footer-text">TuuStudio is a creative design studio that specializes in branding, printing, and supply solutions. We are dedicated to helping businesses and individuals bring their ideas to life through innovative design and high-quality products.</p>
                 <div class="social-icons">
                     <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-square-instagram"></i></a>

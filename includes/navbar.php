@@ -51,6 +51,9 @@
                 </li>
 
                 <li class="nav-item">
+
+                    <i class="ri-shopping-bag-line"></i>
+                    <span></span>
                     <a class="nav-link" href="cart.php">
                         Cart
                     </a>

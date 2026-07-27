@@ -190,7 +190,37 @@ fa-notdog fa-solid fa-palette {
 }
 
 .navbar-expand-lg {
+    background-color: #FAF4DC;
+}
+
+.nav-link {
+    position: relative;
+    color: #222;
+    transition: color 0.3s ease;
+
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    transition: width 0.3s ease;
     background-color: #F4CB1A;
+    bottom: -6px;
+
+}
+
+
+
+.nav-link:hover {
+    color: #222;
+
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
 
 /* footer*/
@@ -232,6 +262,43 @@ fa-notdog fa-solid fa-palette {
 }
 
 
+/* product new  display */
+
+.product-collection {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 600;
+}
+
+.product-collection .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.product-collection .img-boxed {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-collection .img-boxed img {
+    transform: scale(1.1);
+}
+
+.product-collection .title {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.product-collection .price {
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+jj
 
 /* Shop products test display*/
 .shopping {
@@ -882,4 +949,54 @@ input[type="password"] {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+.contained {
+    width: 100%;
+    min-height: 100vh;
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo {
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+
+.gallery {
+    flex-basis: 47%;
+    transform: scale(1.08);
+    background: #ccc;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+}
+
+.details {
+    flex-basis: 53%;
+    background: #ddd;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.details {
+    color: #2563eb;
+    font-size: 35px;
+
+}
+
+.details h2 {
+    color: #557BBD;
+    font-size: 30px;
+    font-weight: 600;
 }
