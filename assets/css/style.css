@@ -298,7 +298,80 @@ fa-notdog fa-solid fa-palette {
     margin-top: 5px;
 }
 
-jj
+.product-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 130px 9% 30px;
+}
+
+.product-detail .product-img {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 12px;
+    height: 550px;
+}
+
+.product-detail .product-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-detail .title {
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.product-detail .priced {
+    font-weight: 600;
+    display: block;
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+
+.product-detail :is(.sizes-selection, ) {
+    margin: 20px 0;
+}
+
+.product-detail :is(.size-selection p) {
+    margin-bottom: 10px;
+}
+
+.product-detail :is(.size-option) {
+    display: flex;
+    gap: 10px;
+}
+
+.product-detail .size-option button {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.product-detail :is(.size-option .selected) {
+    border-color: #bbb;
+}
+
+.btn {
+    padding: 12px 50px;
+    background: #0d1117;
+    border: none;
+    font-size: 16px;
+    color: #F1602C;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 /* Shop products test display*/
 .shopping {

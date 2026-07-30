@@ -8,50 +8,7 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
     rel="stylesheet" />
 
-<div class="contained">
-    <div class="demo">
-        <div class="gallery">
-            <img src="assets/images/merch-shirt.png" alt="">
 
-        </div>
-        <div class="details">
-            <h1>Shirt</h1>
-            <h2>R250</h2>
-
-            <form>
-                <div class="size-select">
-                    <p>Size</p>
-                    <label for="small">
-                        <input type="radio" name="size" id="small">
-                        <span>S</span>
-
-                    </label>
-                    <label for="medium">
-                        <label>
-                            <input type="radio" name="size" id="medium">
-                            <span>M</span>
-                        </label>
-
-
-                        <label for="large">
-                            <label>
-                                <input type="radio" name="size" id="large">
-                                <span>L</span>
-                            </label>
-
-                            <label for="X-large">
-                                <label>
-                                    <input type="radio" name="size" id="x-large">
-                                    <span>XL</span>
-                                </label>
-
-                </div>
-
-            </form>
-        </div>
-    </div>
-
-</div>
 
 
 <section class="product-collection">
