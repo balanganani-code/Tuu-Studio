@@ -40,9 +40,9 @@
             <h1>TuuStudio</h1>
 
             <h4 class="serve">
-                <span class="illustrations">ILLUSTRATIONS.</span>
-                <span class="creative">CREATIVE SOLUTIONS.</span>
-                <span class="branding">BRANDING.</span>
+                <span class="illustrations">DESIGN.</span>
+                <span class="creative">ILLUSTRATIONS.</span>
+                <span class="branding">WEARABLE ART.</span>
             </h4>
 
             <p>We help businesses and individuals bring their ideas to life through creative design,quality printing and professional supply solutions.</p>
