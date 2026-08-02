@@ -580,7 +580,7 @@ fa-notdog fa-solid fa-palette {
 /* products page */
 
 .Product-Page {
-    background-color: #F1602C;
+    background-color: #FAF4DC;
     margin: auto;
 }
 
@@ -596,10 +596,8 @@ fa-notdog fa-solid fa-palette {
 
 .pro-card {
     border: 1px solid #ccc;
-    border-radius: 10px;
     padding: 20px;
     text-align: center;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
     background: #f8f9fa;
 }
 
@@ -607,6 +605,7 @@ fa-notdog fa-solid fa-palette {
 .pro-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
 }
 
 .pro-card h5 {
@@ -618,13 +617,24 @@ fa-notdog fa-solid fa-palette {
     margin: 10px;
     padding: 10px 20px;
     font-size: 1rem;
-    border-radius: 5px;
-    background-color: #0d1117;
+    border-radius: 30px;
+    background-color: #F1602C;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
+.pro {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Lobster Two,cursive';
+}
+
+.featured-product py-5 {
+    text-align: center;
+}
+
+.featured-product py-5 h2 {}
 
 /* contact page */
 

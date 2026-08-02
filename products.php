@@ -48,31 +48,26 @@
 
     <section id="Custom-Illustrations" class="featured-product py-5">
         <h2>Custom Illustrations</h2>
-        <p>Unique and original illustrations that bring your ideas to life.</p>
         <div class="row align-items-center">
 
             <div class="row g-4">
                 <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
                     <div class="pro-card">
                         <img src="assets/images/Khutso.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
+                        <h5>Ntwane</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php?id=1" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
+                            <i class="bi bi-bag-heart"></i> </button>
                     </div>
                 </div>
 
                 <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
                     <div class="pro-card">
                         <img src="assets/images/Moipone.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
+                        <h5>Xitsonga</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php?id=2" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
+                            <i class="bi bi-bag-heart"></i> </button>
                     </div>
                 </div>
 
@@ -80,27 +75,43 @@
                 <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
                     <div class="pro-card">
                         <img src="assets/images/Rebaone.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
+                        <h5>JoJo</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php?id=3" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
+                            <i class="bi bi-bag-heart"></i> </button>
                     </div>
                 </div>
 
                 <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
                     <div class="pro-card">
                         <img src="assets/images/Rebecca.jpeg" class="img-fluid">
-                        <h5>Shangaan</h5>
+                        <h5>Rekopantshitse</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php?id=4" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
+                            <i class="bi bi-bag-heart"></i> </button>
                         </button>
                     </div>
                 </div>
 
+                <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
+                    <div class="pro-card">
+                        <img src="assets/images/Bagwera-Baka.jpeg" class="img-fluid">
+                        <h5>Bagwera Baka</h5>
+                        <p>R350.00</p>
+                        <button class="btn btn-warning">
+                            <i class="bi bi-bag-heart"></i> </button>
+                    </div>
+                </div>
+
+                <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
+                    <div class="pro-card">
+                        <img src="assets/images/Earth.jpeg" class="img-fluid">
+                        <h5>Earth</h5>
+                        <p>R350.00</p>
+                        <button class="btn btn-warning">
+                            <i class="bi bi-bag-heart"></i> </button>
+                    </div>
+                </div>
 
             </div>
 
@@ -109,7 +120,6 @@
 
     <section id="Branded-Merchandise" class="featured-product py-5">
         <h2>Branded Merchandise</h2>
-        <p>High-quality branded merchandise to promote your business and create a lasting impression.</p>
         <div class="row align-items-center">
 
             <div class="row g-4">
@@ -118,10 +128,8 @@
                         <img src="assets/images/illustration.jpg" class="img-fluid">
                         <h5>Shangaan</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php?id=1" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
+                            <i class="bi bi-bag-heart"></i> </button>
                     </div>
                 </div>
 
@@ -131,9 +139,18 @@
                         <img src="assets/images/illustration.jpg" class="img-fluid">
                         <h5>Shangaan</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php?id=2" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
+                            <i class="bi bi-bag-heart"></i> </button>
+                    </div>
+                </div>
+
+                <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
+                    <div class="pro-card">
+                        <img src="assets/images/illustration.jpg" class="img-fluid">
+                        <h5>Shangaan</h5>
+                        <p>R350.00</p>
+                        <button class="btn btn-warning">
+                            <i class="bi bi-bag-heart"></i> </button>
                         </button>
                     </div>
                 </div>
@@ -143,22 +160,8 @@
                         <img src="assets/images/illustration.jpg" class="img-fluid">
                         <h5>Shangaan</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php?id=2" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
-                    <div class="pro-card">
-                        <img src="assets/images/illustration.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
-                        <p>R350.00</p>
-                        <a href="product-details.php?id=3" class="btn btn-primary">View Details</a>
-                        <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
+                            <i class="bi bi-bag-heart"></i> </button>
                     </div>
                 </div>
 
@@ -174,53 +177,11 @@
             <div class="row g-4">
                 <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
                     <div class="pro-card">
-                        <img src="assets/images/illustration.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
+                        <img src="assets/images/Tote.png" class="img-fluid">
+                        <h5>Coming of Age -Tote Bag</h5>
                         <p>R350.00</p>
-                        <a href="product-details.php" class="btn btn-primary">View Details</a>
                         <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
-                    </div>
-                </div>
-
-
-                <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
-                    <div class="pro-card">
-                        <img src="assets/images/illustration.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
-                        <p>R350.00</p>
-                        <a href="product-details.php" class="btn btn-primary">View Details</a>
-                        <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
-                    </div>
-                </div>
-
-
-                <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
-                    <div class="pro-card">
-                        <img src="assets/images/illustration.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
-                        <p>R350.00</p>
-                        <a href="product-details.php" class="btn btn-primary">View Details</a>
-                        <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                            </i> </button>
-                    </div>
-                </div>
-
-
-                <div class="illustration-product col-sm-6 col-md-4 col-lg-3">
-                    <div class="pro-card">
-
-                        <img src="assets/images/illustration.jpg" class="img-fluid">
-                        <h5>Shangaan</h5>
-                        <p>R350.00</p>
-                        <a href="product-details.php" class="btn btn-primary">View Details</a>
-                        <button class="btn btn-warning">
-                            <i class="bi bi-cart"></i>
-                        </button>
+                            <i class="bi bi-bag-heart"></i> </button>
                     </div>
                 </div>
 
