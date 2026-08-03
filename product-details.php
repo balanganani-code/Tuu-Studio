@@ -8,38 +8,7 @@
     rel="stylesheet" />
 
 
-<div class="product-detail">
-    <div class="product-img">
-        <img src=" ">
-        <img src="">
-        <img src="">
-        <img src="">
-    </div>
 
-    <div class="main-img">
-        <img src=" ">
-
-    </div>
-
-</div>
-
-<div class="pro-info">
-    <h2 class="title">Illustration</h2>
-
-</div>
-<span class="priced">R200</span>
-<p class="description">Love</p>
-<div class="size-selection">
-    <button class="size-option"> </button>
-    <button>M</button>
-    <button>L</button>
-    <button>L</button>
-    <button>XL</button>
-    <button>XXL</button>
-</div>
-</div>
-
-<button class="btn" id="add-cart-btn">Add to Cart</button>
 
 
 
