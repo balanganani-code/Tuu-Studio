@@ -75,7 +75,7 @@
         </div>
 
         <div class="value-item">
-            <i class="fa-sharp-duotone fa-solid fa-badge-check"></i> <span>Reliablility</span>
+            <i class="bi bi-patch-check"></i> <span>Reliability</span>
         </div>
     </section>
 
