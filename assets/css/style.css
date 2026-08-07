@@ -537,6 +537,15 @@ fa-notdog fa-solid fa-palette {
     padding: 10px 20px;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF4DC;
+    color: #222;
+    padding: 1rem;
+    gap: 1rem;
+}
+
 .navbar-nav.ms-auto {
     display: flex;
     gap: 20px;
