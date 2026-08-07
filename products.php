@@ -15,7 +15,24 @@
 include 'config/db.php';
 ?>
 
+<?php
 
+$illustrations = mysqli_query(
+    $conn,
+    "SELECT * FROM products WHERE category='Custom Illustrations'"
+);
+
+$merchandise = mysqli_query(
+    $conn,
+    "SELECT * FROM products WHERE category='Branded Merchandise'"
+);
+
+$novelty = mysqli_query(
+    $conn,
+    "SELECT * FROM products WHERE category='Novelty'"
+);
+
+?>
 
 
 

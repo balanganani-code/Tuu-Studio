@@ -7,6 +7,7 @@ $conn = mysqli_connect(
     "tuustudio"
 );
 
+
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
